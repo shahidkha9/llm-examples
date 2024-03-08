@@ -8,7 +8,7 @@ with st.sidebar:
     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
 
 st.title("🤖My Chatbot")
-st.caption("🌐 This is my chatbot. ask anything i'll gvie you prompt reply ")
+st.caption("🌐 This is my chatbot. ask anything i'll gvie you prompt reply  ")
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
 
